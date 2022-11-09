@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding-block: 70px;
+}
+
+img {
+	width: 200px;
+	height: 250px;
+	object-fit: cover;
+	margin-inline: auto;
+	margin-block: 20px;
+}
+
+.buy-btn {
+	width: max-content;
+	margin-inline: auto;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(40, 40, 40);
+	color: white;
+	padding: 16px;
+}
